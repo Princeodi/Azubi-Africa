@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+header{
+  height:70px;
+  background-color: #778be2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:0 20px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navigation-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navigation-menu li {
+  margin-left: 20px;
+}
+
+.navigation-menu li a {
+  text-decoration: none;
+  color: #230404;
+  transition: color 0.3s;
+}
+
+.navigation-menu li a:hover {
+  color: #ff6600;
+}
